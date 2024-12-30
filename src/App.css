@@ -31,6 +31,18 @@
   cursor: pointer;
 }
 
+.modal{
+  background: radial-gradient(white, rgba(0,0,0,0.5) 50%);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: grid;
+  place-items: center;
+}
+
 .App-link {
   color: #61dafb;
 }
